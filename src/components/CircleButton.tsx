@@ -13,6 +13,8 @@ const CircleButton = (props: Props): JSX.Element => {
     )
 }
 
+
+
 const styles = StyleSheet.create({
     circleButton: {
         width: 64,
