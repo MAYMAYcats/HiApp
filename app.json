@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "HiApp",
+    "slug": "HiApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "plugins": [
+      "expo-router",
+      ["@react-native-google-signin/google-signin"]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vladisla.HiApp",
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.vladisla.HiApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a6ba7f6d-585e-4baa-a773-1639d07af805"
+      },
+      "googleAuthRedirectUri": "https://auth.expo.io/@vladsla/HiApp"
+    },
+    "scheme": "hiapp"
+  }
+}
